@@ -1,12 +1,20 @@
 # web
-Website for creating quizes
+Website for creating programming quizes
+
+You can see live instantiation of quizes at these commerical URLs:
+http://mypythonquiz.com/
+http://www.mycppquiz.com/
+http://www.myperlquiz.com/
+http://www.mycquiz.com/
+http://www.myphpquiz.com/
+http://www.myjavaquiz.com/
+http://www.mypostgresqlquiz.com/
 
 # instructions for deployment
 update config.php for a production credentials
 update config.php for dev environment by providing a language selection override
 
 # instructions for build
-
 
     docker build build
     . devenv.sh

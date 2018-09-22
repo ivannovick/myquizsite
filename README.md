@@ -3,7 +3,7 @@ Website for creating programming quizes
 
 # Live instantiation at these commerical URLs:
 
-    http://mypythonquiz.com/
+    http://www.mypythonquiz.com/
     http://www.mycppquiz.com/
     http://www.myperlquiz.com/
     http://www.mycquiz.com/

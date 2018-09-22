@@ -1,0 +1,264 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a.more:link,
+a.more:visited,
+a.more:active {
+    text-decoration: underline;
+    color: #000033;
+}
+a.more:hover {
+    text-decoration: none;
+}
+.home{
+    font-size: x-large;
+}
+.adbreak {
+    display: block;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+.ad-slot {
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+	text-align: left;
+    }
+.alert {
+    color: red;
+}
+body {
+    background-color: #FFFFFF;
+    font: normal large Arial, Verdana, Helvetica;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.mainContent {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.codesample {
+    border: 1px solid black;
+    width: 90%;
+    padding: 5px;
+    margin-left: 5%;
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */    
+}
+.content,
+.qcontent {
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+    float: left;
+    width: 49%;
+}
+.qcontent {
+    width: 60%;
+    padding: 0;
+}
+.description {
+    width: 95%;
+    padding: 10px 5px;
+    margin: 20px 0;
+    font: inherit;
+    font-size: small;
+    border: 1px solid black;
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.ghad {
+    float: right;
+    padding: 20px 20px 250px 10px;
+}
+#gqad {
+    float: right;
+    padding: 5px;
+    width: 47%;
+}
+
+#gqad-new {
+    padding: 5px;
+}
+.greeting {
+    color: green;
+}
+.form-answer {
+    margin: 2%;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font: italic 200% serif, Palatino, Palatino Linotype, Georgia;
+    letter-spacing: 7px;
+}
+h2 {
+    padding: 10px 0 15px 0;
+    margin: 0;
+    color: #ffffff;
+    font: italic large serif, Palatino, Palatino Linotype, Georgia;
+    letter-spacing: 5px;
+}
+.header {
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+.lgl {
+    font-size: small;
+    color: #999999;
+    padding: 2rem 0 0;
+    text-align: center;
+}
+.myspan, .form-question {
+    margin-left: 5%
+}
+.nav {
+    margin: 2.5rem 0;
+}
+#navlist li {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#navlist a {
+    padding: 3px 40px;
+}
+#navlist a:link,
+#navlist a:visited {
+    color: #fff;
+    background-color: #000033;
+    text-decoration: none;
+}
+#navlist a:hover {
+    color: #fff;
+    background-color: #369;
+    text-decoration: none;
+}
+.next {
+    text-align: right;
+    width: 500px
+}
+.qmain {
+    float: left;
+    width: 99%;
+}
+.question {
+    padding: 5px;
+    text-align: left;
+}
+.question-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+.submit {
+    font: inherit;
+    margin: 15px 5px;
+    padding: 0;
+    clear: both;
+}
+.next-question {
+    display: inline-block;
+    margin-left: 10%;
+    border: 1px solid #d2d2d2;
+    font-size: small;
+    padding: 1px 11px;
+    border-radius: 5px;
+}
+.next-question:hover {
+    background: #d2d2d2
+}
+a.next-question-text {
+    text-decoration: none;
+    color: #000033;
+    cursor: default;
+}
+.talk {
+    margin: 0 5%;
+    text-align: left;
+}
+.tellme {
+    padding: 5px;
+}
+ul#navlist {
+    margin: 5px 0 3px 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.reportbug {
+    margin-top: 1rem;
+}
+.footer {
+    margin: 5% 0 0;
+}
+.tutorial-container {     
+	width: 90%;     
+	text-align: left; 
+}  
+.tutorial-container h1, .tutorial-container h2 {     
+	color: #000;     
+	text-align: left; 
+}
+
+.tutorial-ad {
+	margin: 5% 0;
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        margin: .5rem 0;
+    }
+    .talk {
+        margin: 0 5%;
+    }
+    .main {
+        margin: .5rem 0;
+    }
+    .lgl {
+        padding: .2rem 0 0;
+    }
+    .reportbug {
+        margin-top: 1rem;
+        font-size: medium
+    }
+    a.more:link,
+    a.more:visited,
+    a.more:active {
+        margin: .3rem;
+        line-height: 2rem;
+    }
+    .header-title {
+        font-size: 100%
+    }
+    .header-subtitle {
+        font-size: small;
+        padding: inherit;
+    }
+    .content {
+        margin: 0;
+        float: none;
+        width: 100%
+    }
+    #gqad {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .question-container {
+        width: 90%
+    }
+}
+
+
+
+

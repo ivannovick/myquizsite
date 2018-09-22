@@ -1,4 +1,4 @@
 <footer class="footer">
- <div class="reportbug">Can you find a bug, error, or something un-clear in the quiz?  Email us and we will take action."/></div>
+ <div class="reportbug">We are open source now: <a href="https://github.com/ivannovick/myquizsite">Find Us on GitHub</a>"/></div>
  <div class="lgl" style='clear:both'>&copy; 2007-2018, My <?= $language->get_normalized_name() ?> Quiz, All rights reserved.</div>
 </footer>

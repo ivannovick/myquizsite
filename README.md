@@ -1,7 +1,8 @@
 # web
 Website for creating programming quizes
 
-You can see live instantiation of quizes at these commerical URLs:
+# Live instantiation at these commerical URLs:
+
     http://mypythonquiz.com/
     http://www.mycppquiz.com/
     http://www.myperlquiz.com/
